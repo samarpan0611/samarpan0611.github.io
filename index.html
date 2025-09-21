@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Samarpan Patel | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Dr. Samarpan Patel</div>
+        <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+        <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="dark-mode-toggle"><i class="fas fa-moon"></i></button></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Dr. Samarpan Patel - Profile Photo" class="profile-pic" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="profile-placeholder" style="display: none;">
+                <i class="fas fa-user-md"></i>
+            </div>
+            <h1>Dr. Samarpan Patel</h1>
+            <h2>PharmD | Clinical Research Professional</h2>
+            <p>Advancing healthcare through innovative research, clinical trials, and patient-centered outcomes.</p>
+            <div class="hero-buttons">
+                <a href="https://www.linkedin.com/in/dr-samarpan-patel-83a22a1a9" target="_blank" class="btn linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:6samarpan@gmail.com" class="btn resume"><i class="fas fa-envelope"></i> Email Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="reveal glass">
+        <h2>About Me</h2>
+        <p>I am a PharmD graduate skilled in Clinical Research and collaborative healthcare to improve patient outcomes. I am seeking to contribute as a Clinical Trial Assistant to support healthcare advancements.</p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="reveal glass">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Doctor of Pharmacy (Pharm.D.)</h3>
+            <p>L. M. College of Pharmacy (2019 - 2025)</p>
+            <p>CGPA: 7.62</p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="reveal glass">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Axial Health Consultant Pvt. Ltd.</h3>
+            <p><b>Clinical Pharmacist</b> | May 2025 - Present</p>
+            <ul>
+                <li>Worked on U.S.-based Nirvana healthcare projects (medication reconciliation, prior authorization, insurance pharmacy notes).</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>GCS Medical College, Hospital & Research Centre</h3>
+            <p><b>Clinical Pharmacist (Intern)</b> | May 2024 - May 2025</p>
+            <ul>
+                <li>Collaborated with healthcare providers to optimize therapeutic outcomes for patients.</li>
+                <li>Reviewed prescriptions, lab results, and monitored patient progress.</li>
+                <li>Performed drug utilization reviews and improved prescribing practices.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="reveal glass">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Antibiotic Utilization in Nephrological and Respiratory Infections</h3>
+            <p>Prospective cohort observational study to analyze prescribing patterns and optimize antibiotic use.</p>
+        </div>
+        <div class="card">
+            <h3>Antibiotic Resistance Trends in Adult Patients</h3>
+            <p>Study on resistance patterns in a tertiary care hospital to support better antibiotic policies.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="reveal glass">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Protocol Development & Interpretation</li>
+            <li>Good Clinical Practice (GCP) Compliance</li>
+            <li>Case Report & Research Article Writing</li>
+            <li>Biostatistics (SPSS/GraphPad)</li>
+            <li>Literature Search (PubMed, Scopus, Embase)</li>
+            <li>Clinical Trial Operations (CRF, EDC, CTMS)</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="reveal glass">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +91 6359131931</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:6samarpan@gmail.com" class="email-link">6samarpan@gmail.com</a></p>
+            <div class="contact-buttons">
+                <a href="mailto:6samarpan@gmail.com" class="btn email-btn"><i class="fas fa-envelope"></i> Send Email</a>
+                <a href="tel:+916359131931" class="btn phone-btn"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dr. Samarpan Patel | All Rights Reserved</p>
+    </footer>
+
+    <!-- Floating Social Links -->
+    <div class="social-links">
+        <a href="mailto:6samarpan@gmail.com" title="Email Dr. Samarpan Patel"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/dr-samarpan-patel-83a22a1a9" target="_blank" title="Connect on LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <!-- Scripts (smooth scroll, dark mode, hamburger, reveal) -->
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});
+            });
+        });
+
+        // Reveal animation
+        const reveals = document.querySelectorAll('.reveal');
+        window.addEventListener('scroll', () => {
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('active');
+                } else {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        });
+
+        // Dark mode toggle
+        const toggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+        toggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            toggle.innerHTML = body.classList.contains('dark-mode') 
+                ? '<i class="fas fa-sun"></i>' 
+                : '<i class="fas fa-moon"></i>';
+        });
+
+        // Hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Email functionality enhancement
+        function handleEmailClick(email) {
+            // Try to open default email client
+            const mailtoLink = `mailto:${email}`;
+            window.location.href = mailtoLink;
+            
+            // Fallback: Copy email to clipboard
+            setTimeout(() => {
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(email).then(() => {
+                        alert('Email copied to clipboard: ' + email);
+                    });
+                }
+            }, 1000);
+        }
+
+        // Add click handlers to all email elements
+        document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const email = this.href.replace('mailto:', '');
+                handleEmailClick(email);
+            });
+        });
+    </script>
+</body>
+</html>
